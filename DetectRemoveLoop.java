@@ -1,4 +1,5 @@
 package demo;
+public class DetectRemoveLoop {
 class Node {
     char data;
     Node next;
@@ -7,7 +8,6 @@ class Node {
         this.next = null;
     }
 }
-public class DetectRemoveLoop {
     Node head;
     void insert(char data) {
         Node newNode = new Node(data);
