@@ -1,4 +1,5 @@
 package demo;
+public class FindMiddleElement {
 class Node {
     int data;
     Node next;
@@ -7,8 +8,6 @@ class Node {
         this.next = null;
     }
 }
-
-public class FindMiddleElement {
     Node head;
     void insert(int data) {
         Node newNode = new Node(data);
