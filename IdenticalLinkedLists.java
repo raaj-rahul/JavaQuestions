@@ -1,4 +1,5 @@
 package demo;
+public class IdenticalLinkedLists {
 import java.util.*;
 class Node {
     char data;
@@ -8,8 +9,6 @@ class Node {
         this.next = null;
     }
 }
-
-public class IdenticalLinkedLists {
     Node head;
 
     void insert(char data) {
