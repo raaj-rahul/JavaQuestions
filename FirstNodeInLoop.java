@@ -25,7 +25,6 @@ class Node {
         Node loopNode = head;
         for (int i = 1; i < pos; i++)
             loopNode = loopNode.next;
-
         Node temp = head;
         while (temp.next != null)
             temp = temp.next;
