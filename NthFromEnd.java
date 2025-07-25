@@ -7,7 +7,6 @@ class Node {
         this.next = null;
     }
 }
-
 public class NthFromEnd {
     Node head;
 
